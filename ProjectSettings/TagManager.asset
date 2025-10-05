@@ -29,6 +29,8 @@ TagManager:
   - QDSUITextSecondaryInvertedColor
   - QDSUIToggleCheckboxRadio
   - QDSUITextInputField
+  - Collectible
+  - NextLevel
   layers:
   - Default
   - TransparentFX
