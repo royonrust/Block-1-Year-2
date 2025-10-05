@@ -7,7 +7,7 @@ public class MenuController : MonoBehaviour
 {
   public void StartButton()
   {
-    SceneManager.LoadScene("BasicScene");
+    SceneManager.LoadScene(0);
     
   }
 }

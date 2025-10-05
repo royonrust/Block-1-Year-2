@@ -822,18 +822,6 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
-  - {fileID: -7349926892915294884}
-  - {fileID: -2402630214408262169}
-  - {fileID: -6121271877732613880}
-  - {fileID: -8000997598222710656}
-  - {fileID: -3251992797483153628}
-  - {fileID: -2330341190342355875}
-  - {fileID: 1123765454017892284}
-  - {fileID: 7973107738168335752}
-  - {fileID: 415233017926750350}
-  - {fileID: 2084572350563878152}
-  - {fileID: 3451029652778698079}
-  - {fileID: -3873002391498935951}
   - {fileID: -4462536313368854160}
   - {fileID: 6886245988355559344}
   - {fileID: 6746228182035495572}
@@ -1172,7 +1160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a24be4b5ebfe5f4d8ed1de9b25cb7aa, type: 3}
   m_Name: HandCommonPosesInteraction Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Interaction Poses
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handinteractionposes
