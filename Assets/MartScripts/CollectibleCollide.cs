@@ -10,7 +10,8 @@ public class CollectibleCollide : MonoBehaviour
 
     int score = 0;
 
-
+    [SerializeField]
+    private GameObject batteryObject;
 
     private bool collChecker = false;
     public GameObject sphereObj;
@@ -33,6 +34,25 @@ public class CollectibleCollide : MonoBehaviour
             nextLevel.SetActive(true);
         }
         Score.text = score + "/5";
+
+        if(batteryObject.transform.position.y >= 0.7)
+        {
+            Destroy(batteryObject);
+            collChecker = true;
+            score = score + 1;
+        }
+        else if(batteryObject.transform.position.z >= 4.15)
+        {
+            Destroy(batteryObject);
+            collChecker = true;
+            score = score + 1;
+        }
+        else if(batteryObject.transform.position.x >= 2.98)
+        {
+            Destroy(batteryObject);
+            collChecker = true;
+            score = score + 1;
+        }
 
     }
 

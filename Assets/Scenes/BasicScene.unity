@@ -4014,6 +4014,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CollectibleCollide
   Score: {fileID: 1039646813}
+  batteryObject: {fileID: 625959817}
   sphereObj: {fileID: 581875047}
   nextLevel: {fileID: 796157851}
 --- !u!1 &625959817
